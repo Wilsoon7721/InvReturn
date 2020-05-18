@@ -1,0 +1,38 @@
+# Invreturn Configuration #
+#   Created by Wilsoon    #
+# Source Code available at: #
+# https://github.com/Wilsoon7721/InvReturn/tree/master #
+
+# CONFIGURATION
+
+# Do you want your inventory to be cleared before items are returned to you?
+# If inventory is full and this is set to false, items will drop on the ground.
+# true = yes
+# false = no
+# default: true
+clearinventory: true
+
+
+
+# MESSAGES
+
+# Message if something other than a player executed the command.
+# No placeholders
+# default: "&cYou are not a player."
+message-notplayer: "&cYou are not a player."
+
+# Message if you do not have the permission to execute the command.
+# You can use {player} to replace with the name who executed this command
+# You can use {permission} to replace with the missing permission node
+# default: "&cYou lack the permission node: {permission}"
+message-nopermission: "&cYou lack the permission node: {permission}"
+
+# Message if you have no saved inventory
+# You can use {player} to replace with the name who executed this command
+# default: "&cYou do not have a saved inventory."
+message-noinvfound: "&cYou do not have a saved inventory."
+
+# Message upon successful inventory return
+# No placeholders
+# default: "&aYou have successfully claimed your inventory."
+message-success: "&aYou have successfully claimed your inventory."
