@@ -1,0 +1,14 @@
+main: com.gmail.calorious.InvReturn
+name: InvReturn
+version: 1.0
+description: A plugin that allows you to return your inventory upon death.
+author: Wilsoon
+commands:
+     invreturn:
+         description: Base command for this plugin
+         usage: /<command>
+ 
+permissions:
+     invreturn.use:
+         description: Allows the player to use /invreturn
+         default: op
